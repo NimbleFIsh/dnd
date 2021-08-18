@@ -7,6 +7,10 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   width: 100vw;
   height: 100vh;
@@ -73,11 +77,11 @@ li.grabbed {
   position: absolute;
 }
 
-li.grabbed .text, li.grabbed img, li.grabbed .close  {
+li.grabbed .text, li.grabbed img {
   pointer-events: none;
 }
 
-li > .close {
+/* li > .close {
   position: absolute;
   top: 5px;
   right: 8px;
@@ -85,7 +89,7 @@ li > .close {
   height: 21px;
   cursor: pointer;
   background-color: #e4e4e4;
-}
+} */
 
 li > .text {
   margin-bottom: 5px;
@@ -102,4 +106,40 @@ li > .close::after {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+div#modal {
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  left: 0px;
+  bottom: -110px;
+  border: 2px solid grey;
+  border-radius: 15px;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal > input {
+  padding: 3px 5px;
+  margin-right: 10px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+#modal > input:focus {
+  outline: none;
+}
+
+#modal > button {
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-weight: 600;
+}
+
+#modal > #close {
+  position: absolute;
+  
 }
