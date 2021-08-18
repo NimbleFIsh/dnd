@@ -1,0 +1,44 @@
+{
+    "Todo": [
+        {
+            "text": "Welcome to Trello!",
+            "img": ""
+        },
+        {
+            "text": "This is a card",
+            "img": ""
+        },
+        {
+            "text": "Click on a card to see what's behind it.",
+            "img": ""
+        },
+        {
+            "text": "You can attach pictures and files...",
+            "img": "../img/hasky.png"
+        }
+    ],
+    "In progress": [
+        {
+            "text": "Drag people onto a card to indicate that they.re responsible for it.",
+            "img": ""
+        },
+        {
+            "text": "Make as many lists as you need!",
+            "img": ""
+        },
+        {
+            "text": "Try dragging cards anywhere.",
+            "img": ""
+        }
+    ],
+    "Done": [
+        {
+            "text": "Want to use keyboard shortcuts? We hae them!",
+            "img": ""
+        },
+        {
+            "text": "It's message exclusive by NimbleFish~.",
+            "img": "../img/joke.jpg"
+        }
+    ]
+}
